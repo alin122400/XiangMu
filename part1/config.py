@@ -7,9 +7,10 @@ CHANNELS = 1
 FORMAT = "Int16"
 MAX_RECORD_SEC = 600
 RING_SEC = 15
+REALTIME_PROCESS_INTERVAL = 0.5  
 
 # ---------- 模型 ----------
-WHISPER_MODEL = "base"
+WHISPER_MODEL = "base"  
 OLLAMA_URL = "http://localhost:11434"
 LLM_MODEL = "deepseek-r1:1.5b"
 MAX_HISTORY = 10
